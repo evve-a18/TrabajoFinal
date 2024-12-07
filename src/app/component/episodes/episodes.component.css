@@ -1,0 +1,32 @@
+*{
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.card-info{
+    background-color: rgb(190, 225, 163);
+    width: 250px;
+    height: max-content;
+    padding: 30px;
+    border-radius: 15px;
+    .info-header{
+        .image{
+            height: 200px;
+            width: 250px; 
+            border-radius: 15px;  
+        }
+
+    }
+
+    .info-body{
+        color:  rgb(9, 62, 77);
+        text-align: center;
+        .title{
+            font-weight: 600;
+            font-size: 30px;
+        }
+    }
+}
+
+.parent{
+    display: inline-flex;
+}

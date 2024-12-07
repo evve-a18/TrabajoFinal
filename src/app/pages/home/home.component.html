@@ -1,0 +1,21 @@
+<style>
+    @import url('https://fonts.cdnfonts.com/css/tilt-neon');
+</style>
+<div class="title">
+    <h3>Mi Proyecto Final :)</h3>
+</div>
+<div class="c">
+    <div class="container">
+        <div class="box">
+            <h3>Log In</h3>
+            <label for="email">Email</label>
+            <input type="email" placeholder="email@gmail.com" name="email" id="email" [(ngModel)]="email"> 
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" name="password" id="password"[(ngModel)]="password"> 
+            <div class="controllers">
+                <button (click)="login(email,password)">Okay</button>
+            </div> 
+        </div>
+    </div>
+</div>
+

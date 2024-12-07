@@ -1,0 +1,13 @@
+<style>
+    @import url('https://fonts.cdnfonts.com/css/tilt-neon');
+</style>
+<div class="title">
+    <h3>Capitulos</h3>
+</div>
+<div class="container">
+    <div class="cont" *ngFor="let capitulos of capitulos">
+        <app-episodes
+        [data]="capitulos"
+        />
+</div>
+</div>

@@ -1,0 +1,63 @@
+.c{
+    background-color: rgb(24, 53, 99);
+    height: 100vh; 
+}
+.box{
+    background-color: rgb(190, 225, 163);
+    padding: 10px;
+    border-radius: 15px;
+    
+    h3{
+        font-size: 2.5rem;
+        font-weight: 500;
+        font-family: 'Tilt Neon', sans-serif;
+        text-align: center;
+    }
+    input{
+        width: 90%;
+        border: none;
+        padding: 5px;
+        font-size: 1.1rem;
+        height: 30px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        font-family: 'Tilt Neon', sans-serif;
+    
+    }
+    label{
+        margin: 0 0 0 10px;
+        margin-bottom: 5px;
+        font-size: 1.2rem;
+        font-weight: 200;
+        font-family: 'Tilt Neon', sans-serif;
+    }
+    .controllers{
+        display: flex;
+        justify-content: center;
+    }
+
+    button{
+        font-size: 1.2rem;
+        font-family: 'Tilt Neon', sans-serif;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(245, 248, 194);
+    }
+    
+}
+.title{
+    height: 10vh;
+    background-color: rgb(24, 53, 99);
+    padding: 10px;
+    border: none;
+    h3{
+        font-size: 2rem;
+        font-weight: 500;
+        font-family: 'Tilt Neon', sans-serif;
+        text-align: center;
+        color: rgb(246, 254, 173);
+        background-color: rgb(24, 53, 99);
+    }
+}
